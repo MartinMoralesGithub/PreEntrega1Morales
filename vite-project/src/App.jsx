@@ -1,43 +1,21 @@
 import './App.css'
-import Componente2 from './Componentes/Componente2'
-import Contador from './Componentes/Contador'
+import { ItemListContainer } from './Componentes/ItemListContainer'
+import NavBar2  from './Componentes/NavBar2'
+// import Componente2 from './Componentes/Testeos/Componente2'
+// import Contador from './Componentes/Testeos/Contador'
+// import NavBar  from './Componentes/Testeos/NavBar'
 
 
 function App() {
 
   return(
-    /*
-    una vez que escribis esto:
-    <>
-    <Componente2/>
-    </>    
-
-<> </>  *** esto es una etiqueta vacia porquw el return
-solo puede pasar un elemento esntonces lo de adentro
-lo meto en esta etiqueta vacia  
-
-    se crea el import automaticamente:
-    import Componente2 from './Componentes/Componente2'
-    */
 
     <>
-
-    <Componente2 saludo="holaaaaaaaaaaaaa"/>
-    <Contador />
-
+    <NavBar2/>
+    <ItemListContainer greeting="Bienvenidos! Vean nuestras mejores ofertas en calzado y moda"/>
     </>
-    
-
-
-    /*la otra manera es poner export antes del let componente2
-     (en Componente.jsx)
-     y import {Componente2} from './Componentes/Componente2'
-     no olvidar las llaves
-     este es un exportado dinamico
-    */
   )
   
-
 }
 
 export default App
