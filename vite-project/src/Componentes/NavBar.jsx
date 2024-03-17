@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import CartWidget from "./Cartwidget";
 import StepUp from "../assets/StepUp.svg";
+// import { NavLink } from "react-router-dom";
 
-
-const NavBar2 = () => {
+const NavBar = () => {
 
 const [MostrarCategorias, SetMostrarCategorias] = useState(false)
 
@@ -38,4 +38,4 @@ const [MostrarCategorias, SetMostrarCategorias] = useState(false)
   );
 };
 
-export default NavBar2;
+export default NavBar;
